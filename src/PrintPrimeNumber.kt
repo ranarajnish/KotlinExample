@@ -12,7 +12,7 @@ fun main() {
 }
 
 fun checkPrime(num2 : Int){
-    var flag =0
+    var flag = 0
     for (x in 2..<num2){
         if(num2 % x == 0){
             flag = 1
